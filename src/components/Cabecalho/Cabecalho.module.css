@@ -1,0 +1,27 @@
+.header {
+  background-color: var(--bgColor);
+  padding: 24px 42px;
+  border-bottom: 2px solid var(--secondaryColor);
+}
+
+.header__title {
+  font-size: 48px;
+  text-align: center;
+}
+
+.header__description {
+  margin: 24px 60px 0;
+  color: var(--secondaryColor);
+  line-height: 24px;
+  font-size: 14px;
+
+  display: flex;
+  gap: 16px;
+
+  /* display: none; */
+}
+
+.enhance {
+  border-bottom: 6px dotted var(--secondaryColor);
+  cursor: help;
+}
